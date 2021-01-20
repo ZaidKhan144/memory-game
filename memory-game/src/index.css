@@ -13,3 +13,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.header{
+  background-color: rgb(99, 32, 32);
+  text-align: center;
+  padding: 10px 0;
+}
+.header h1{
+  margin: 10px 0;
+}
+.hide{
+  display: none;
+}
