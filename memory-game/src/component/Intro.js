@@ -5,9 +5,13 @@ const Intro = () => {
         e.preventDefault()
         const intro = document.querySelector('.intro')
         const header = document.querySelector('.header')
-        
+        const scoreboard = document.querySelector('.scoreboard')
+        const main = document.querySelector('.main')
+
         intro.classList.add('hide')
         header.classList.remove('hide')
+        scoreboard.classList.remove('hide')
+        main.classList.remove('hide')
     }
 
     return(
