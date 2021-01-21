@@ -16,6 +16,10 @@ body {
   color: aliceblue;
 }
 
+li{
+  list-style-type: none;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -26,7 +30,8 @@ code {
   text-align: center;
   padding: 20px 0;
   font-family: 'Noto Sans JP', sans-serif;
-  font-size: 1em;
+  font-size: .8em;
+  letter-spacing: 2px;
 }
 
 .header h1{
@@ -71,4 +76,87 @@ button{
 button:hover{
   color: #56a06d;
   border: 2px solid  #d17070;
+}
+
+.gif-list a {
+  display: block;
+  margin: auto;
+}
+
+.gif-wrap {
+  /* background-color: #fff; */
+  margin-bottom: .8em;
+  position: relative;
+}
+
+.gif-wrap img{
+  min-width: 100%;
+  cursor: pointer;
+}
+
+.main{
+  width: 90%;
+  max-width: 1025px;
+  margin: auto;
+}
+
+.main::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.scoreboard{
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.scores{
+  display: flex;
+  justify-content: space-around;
+}
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 0) and (max-width: 549px) {
+  .gif-list li {
+    text-align: center;
+    margin: 20px 0 0;
+    font-size: 0;
+  }
+}
+
+@media (min-width: 550px) {
+  .gif-list li {
+    float: left;
+    width: 50%;
+    margin: 0;
+  }
+
+  .gif-wrap img {
+    height: 235px;
+  }
+
+  .gif-wrap {
+    border: 1px solid white;
+    padding: 0;
+    overflow: hidden;
+    font-size: 0;
+  }
+}
+
+@media (min-width: 769px) {
+
+  .gif-list li {
+    width: 33.333333333%;
+  }
+}
+
+@media (min-width: 769px) { 
+
+  .gif-list li:nth-of-type(3n+1) {
+    clear: left;
+  }
 }
