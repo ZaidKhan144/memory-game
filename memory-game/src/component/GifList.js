@@ -1,6 +1,6 @@
-import Gif from './Gif'
+ import Gif from './Gif'
 
-const GifList = (props) => {
+ const GifList = (props) => {
     
     let results = props.data
 
@@ -10,9 +10,7 @@ const GifList = (props) => {
 
         return (
             <ul className="gif-list">
-                
-                    {gif}
-                
+                {gif}
             </ul>
         )
 }

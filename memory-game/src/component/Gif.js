@@ -1,5 +1,4 @@
 
-
 const Gif = (props) => {
     return (
     <li className="gif-wrap">

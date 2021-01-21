@@ -13,21 +13,10 @@ const Main = () => {
             console.log('Error fetching and parsing data', error)
           })
     },[])
-
-    // let gif = data.map(gif => 
-    //         <img src={gif.images.fixed_height.url} key={gif.id} alt={gif.title}/>
-    //     )
     
     return(
         <div className="main hide">
-
-            <GifList data={data}/>
-            {/* <ul className="gif-list">
-                <li className="gif-wrap">
-                    {gif}
-                </li>
-            </ul> */}
-            
+            <GifList data={data}/>    
         </div>
     )
 }
