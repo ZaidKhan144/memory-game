@@ -1,11 +1,13 @@
+// import React, {useState} from 'react'
 
-const Scoreboard = () => {
+const Scoreboard = (props) => {
 
+    
     return(
         <div className="scoreboard hide">
             <div className="scores">
-            <h3>Current Score: 0</h3>
-                <h3>Best Score: 0</h3>
+            <h3>Current Score: {props.current}</h3>
+                <h3>Best Score: {props.best}</h3>
             </div>
         </div>
     )
