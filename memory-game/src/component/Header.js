@@ -3,7 +3,7 @@ const Header = () => {
     return(
         <div>
             <div className="header hide">
-                <h1>Memory GIFs Game</h1>
+                <h1>Memory&nbsp; GIFs&nbsp; Game</h1>
             </div>
         </div>
     )

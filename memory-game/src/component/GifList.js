@@ -51,10 +51,11 @@ import Scoreboard from './Scoreboard'
         return (
             <div>
             <Scoreboard current={currentScore} best={bestScore}/>
+            <div className="gif-container">
                 <ul className="gif-list">
                     {gif}
                 </ul>
-                
+            </div> 
             </div>
         )
 }
