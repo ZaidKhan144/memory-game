@@ -176,7 +176,8 @@ li:nth-child(6){
   }
 
   .gif-wrap {
-    border: 10px solid rgb(71, 175, 118);
+    /* border: 10px solid rgb(71, 175, 118); */
+    border: 1px solid #fff;
     padding: 0;
     overflow: hidden;
     font-size: 0;
