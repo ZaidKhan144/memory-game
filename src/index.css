@@ -48,6 +48,23 @@ code {
   max-width: 422px;
 }
 
+@media (max-width: 1024px){
+  .intro{
+    width: 40%;
+    max-width: 450px;
+  }
+  .gif-list{
+    padding-left: 0;
+  }
+  
+}
+
+@media (max-width: 768px){
+  .intro{
+    width: 50%;
+  }
+}
+
 .intro h1{
   margin: 0 0 10px 0;
   font-size: 3.3em;
@@ -56,9 +73,22 @@ code {
   color: rgb(241, 239, 99);
 }
 
+
 .intro p {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.7em;
+}
+
+@media (max-width: 630px){
+  .intro{
+    width: 80%;
+  }
+  .intro h1{
+    font-size: 2.9em;
+  }
+  .intro p{
+    font-size: 1.6em;
+  }
 }
 
 button{
@@ -117,9 +147,28 @@ button:hover{
   padding-top: 30px;
 }
 
+@media(max-width: 768px){
+  .scoreboard{
+    width: 50%;
+  }
+}
+
 .scores{
   display: flex;
   justify-content: space-between;
+}
+
+@media(max-width: 630px){
+  .main{
+    margin-bottom: 60px;
+  }
+  .scoreboard{
+    width: 90%;
+  }
+  .scores{
+    display: block;
+    text-align: center;
+  }
 }
 
 .scores h3{
