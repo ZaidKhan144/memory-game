@@ -32,10 +32,41 @@ code {
   padding: 20px 0;
   font-size: 1em;
   font-family: 'Arvo', serif;
+
+}
+
+.header div {
+  display: flex;
+  justify-content: space-around;
+  width: 73%;
+  margin-left: auto;
+}
+
+@media (max-width: 768px){
+  .header div{
+    width: 78%;
+  }
+}
+
+.header div a{
+  text-decoration: none;
+  color: #fff;
 }
 
 .header h1{
   margin: 0;
+}
+
+@media (max-width: 630px){
+
+    .header div {
+      display: block;
+      width: 100%;
+    }
+
+    .header h1{
+      margin-bottom: 10px;
+    }
 }
 
 .hide{
