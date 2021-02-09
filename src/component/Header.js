@@ -22,7 +22,7 @@ const Header = () => {
             <div className="header hide">
                 <div>
                     <h1>Memory&nbsp; GIFs&nbsp; Game</h1>
-                    <a href="https://github.com/ZaidKhan144" target="_blank" rel="noreferrer"><GitLogo></GitLogo></a>
+                    <a href="https://github.com/ZaidKhan144/memory-game" target="_blank" rel="noreferrer"><GitLogo></GitLogo></a>
                 </div>
              </div>
         </div>
