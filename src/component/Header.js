@@ -21,7 +21,7 @@ const Header = () => {
         <div className="header-daddy">
             <div className="header hide">
                 <div>
-                    <h1>Retain &nbsp;Your&nbsp; GIFs</h1>
+                    <h1>Suspect&nbsp; GIFs</h1>
                     <a href="https://github.com/ZaidKhan144/memory-game" target="_blank" rel="noreferrer"><GitLogo></GitLogo></a>
                 </div>
              </div>
