@@ -27,3 +27,13 @@ $ npm install
 # Start the project
 $ npm start
 ```
+
+## Tech used
+- React
+- giphy API
+- CSS
+- React Hooks
+- ESLint - A linter tool to standardize code
+- Prettier - Code formatter
+- GitHub Pages
+
