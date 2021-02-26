@@ -31,6 +31,8 @@ $ npm start
 ## Tech used
 - React
 - giphy API
+- Styled Components
+- Styled Icons
 - CSS
 - React Hooks
 - ESLint - A linter tool to standardize code
