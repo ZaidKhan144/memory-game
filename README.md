@@ -43,7 +43,7 @@ $ npm start
 
 This project's main goal was to get used to `React Hooks`. 
 
-This memory game is going to present six random GIFs from giphy API. If the selected GIF would be different from the previous selected one, then the score will increase by one, and a new set of random GIF will generate. And If the selected GIF is the same, the best score will be the current score, and the current score will turn to zero. 
+This memory game is going to present six trending random GIFs from giphy API. If the selected GIF would be different from the previous selected one, then the score will increase by one, and a new set of random GIF will generate. And If the selected GIF is the same, the best score will be the current score, and the current score will turn to zero. 
 
 I started this project by creating a `create-react-app` boilerplate and then made custom React Components. 
 
